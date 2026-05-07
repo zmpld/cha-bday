@@ -40,12 +40,16 @@ const Hero = () => {
             >
               A Day Made For Someone Truly Special
             </h2>
-            <div className="flex items-center gap-3 mt-3">
-              <ButtonOutline
-                href="#projects"
-                label="Scroll down"
-                icon="arrow_downward"
-              />
+            <div className="mt-6 lg:hidden">
+              <figure className="w-full max-w-[320px] rounded-[60px] overflow-hidden mx-auto">
+                <img
+                  src="/assets/pixelated-cha-no-bg.png"
+                  width={656}
+                  height={800}
+                  alt="Cha Hero Banner"
+                  className="w-full max-w-[20rem] mx-auto"
+                />
+              </figure>
             </div>
           </div>
           <div className="hidden lg:block">
@@ -57,7 +61,7 @@ const Hero = () => {
                 src="/assets/cha-portrait.JPG"
                 width={656}
                 height={800}
-                alt="Z Hero Banner"
+                alt="Cha Hero Banner"
                 className="w-[20rem]"
               />
             </figure>
