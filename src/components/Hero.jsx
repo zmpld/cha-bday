@@ -51,6 +51,13 @@ const Hero = () => {
                 />
               </figure>
             </div>
+            <div className="flex items-center gap-3 mt-3 hidden lg:block">
+              <ButtonOutline
+                href="#projects"
+                label="Scroll down"
+                icon="arrow_downward"
+              />
+            </div>
           </div>
           <div className="hidden lg:block">
             <figure
